@@ -2,6 +2,12 @@
 
 This project is an interactive web-based image gallery showcasing illustrations from the book series "Castes and Tribes of Southern India" by Edgar Thurston and K. Rangachari. The original eBooks are available from Project Gutenberg.
 
+https://bhanu9prakash.github.io/thurston-rangachari-southern-india-gallery/
+
+![Uploading image.png…]()
+
+
+
 ## Features
 
 - Browse through images from all 7 volumes of the book series
