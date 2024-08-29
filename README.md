@@ -4,7 +4,8 @@ This project is an interactive web-based image gallery showcasing illustrations 
 
 https://bhanu9prakash.github.io/thurston-rangachari-southern-india-gallery/
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/84513b97-e284-44b4-9788-729267dfdfd2)
+
 
 
 
