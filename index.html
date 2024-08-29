@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castes and Tribes of Southern India</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Castes and Tribes of Southern India</h1>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button class="dropbtn" id="selected-volume">Select Volume ▼</button>
+                <div id="volume-dropdown" class="dropdown-content">
+                    <!-- Dropdown options will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="carousel-container">
+            <button id="prev-btn" class="nav-btn">&lt;</button>
+            <div id="main-card">
+                <div class="image-container">
+                    <img id="main-image" src="" alt="">
+                </div>
+                <div class="content">
+                    <h2 id="title"></h2>
+                    <h3 id="book-source"></h3>
+                    <span id="more-text" style="display: none;"></span>
+                    <a href="#" id="read-more" style="display: none;">Read more</a>
+                </div>
+            </div>
+            <button id="next-btn" class="nav-btn">&gt;</button>
+        </div>
+        <div id="carousel-indicator"></div>
+    </main>
+
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modal-image" src="" alt="">
+    </div>
+
+    <div id="disclaimer-modal" class="disclaimer-modal">
+        <div class="disclaimer-content">
+            <h2>Age Verification</h2>
+            <p>This collection contains historical images from a different era, some of which may include nudity or sensitive content. By proceeding, you confirm that:</p>
+            <ul>
+                <li>You are 18 years of age or older</li>
+                <li>You understand that you may encounter nude or sensitive imagery</li>
+                <li>You accept viewing this content</li>
+            </ul>
+            <label>
+                <input type="checkbox" id="disclaimer-checkbox"> I confirm the above statements
+            </label>
+            <button id="disclaimer-accept" disabled>Enter Site</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright-info">
+            <p>This digital collection is based on the eBook from Project Gutenberg. It is available for free use and distribution under the terms of the Project Gutenberg License. For more information, visit <a href="https://www.gutenberg.org" target="_blank" rel="noopener noreferrer">www.gutenberg.org</a>.</p>
+            <p>While this presentation is a derivative work, it adheres to fair use principles and encourages the spread of knowledge about the diverse cultures of Southern India.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
